@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 import {
     IoPlaySkipBackCircleSharp,
@@ -155,7 +156,7 @@ export default function AudioPlayer({ url, id, nextElement, prevElement }) {
                     <button className="button button-secondary mr-2">
                         Download
                     </button>
-                    <button className="button button-primary">Licence</button>
+                    <button className="button button-primary"><Link style={{textDecoration : 'none', color : 'white'}} to="/licences">Licence</Link></button>
                 </div>
             </div>
         </div>

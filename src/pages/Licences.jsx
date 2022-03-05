@@ -29,8 +29,74 @@ const Licences = () => {
                                 style={{ height: 500 }}
                                 className="card-body d-flex justify-content-center align-items-center flex-column"
                             >
-                                <h1 style={{ color: "#e64619", fontSize: 50 }}>
-                                    <b>VIP</b>
+                                <h1 style={{ color: "#e64619", fontSize: 30 }}>
+                                    <b>Single Use</b>
+                                </h1>
+                                
+                                <p className="card-text text-center">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore...
+                                </p>
+
+                                
+
+                                <h1 className="card-title"><b>99.99 $</b> <span style={{fontSize : 20}}>/ monthly</span></h1>
+
+                                <p className="text-center">
+                                    All downloads include full tracks, loops,
+                                    stems, and shorts. Premium License and some
+                                    tracks not included in subscription.
+                                </p>
+
+                                <button className="button button-secondary mr-2">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card">
+                            <div
+                                style={{ height: 500 }}
+                                className="card-body d-flex justify-content-center align-items-center flex-column"
+                            >
+                                <h1 style={{ color: "#1fb8a8", fontSize: 30 }}>
+                                    <b>Non-Exclusive License</b>
+                                </h1>
+                                
+                                <p className="card-text text-center">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore...
+                                </p>
+
+                                
+
+                                <h1 className="card-title"><b>59.99 $</b> <span style={{fontSize : 20}}>/ monthly</span></h1>
+
+                                <p className="text-center">
+                                    All downloads include full tracks, loops,
+                                    stems, and shorts. Premium License and some
+                                    tracks not included in subscription.
+                                </p>
+
+                                <button className="button button-secondary mr-2">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card">
+                            <div
+                                style={{ height: 500 }}
+                                className="card-body d-flex justify-content-center align-items-center flex-column"
+                            >
+                                <h1 style={{ color: "#d6d32f", fontSize: 30 }}>
+                                    <b>Exclusive License</b>
                                 </h1>
                                 
                                 <p className="card-text text-center">
@@ -42,72 +108,6 @@ const Licences = () => {
                                 
 
                                 <h1 className="card-title"><b>29.99 $</b> <span style={{fontSize : 20}}>/ monthly</span></h1>
-
-                                <p className="text-center">
-                                    All downloads include full tracks, loops,
-                                    stems, and shorts. Premium License and some
-                                    tracks not included in subscription.
-                                </p>
-
-                                <button className="button button-secondary mr-2">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col">
-                        <div className="card">
-                            <div
-                                style={{ height: 500 }}
-                                className="card-body d-flex justify-content-center align-items-center flex-column"
-                            >
-                                <h1 style={{ color: "#1fb8a8", fontSize: 50 }}>
-                                    <b>PREMIUM</b>
-                                </h1>
-                                
-                                <p className="card-text text-center">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore...
-                                </p>
-
-                                
-
-                                <h1 className="card-title"><b>9.99 $</b> <span style={{fontSize : 20}}>/ monthly</span></h1>
-
-                                <p className="text-center">
-                                    All downloads include full tracks, loops,
-                                    stems, and shorts. Premium License and some
-                                    tracks not included in subscription.
-                                </p>
-
-                                <button className="button button-secondary mr-2">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col">
-                        <div className="card">
-                            <div
-                                style={{ height: 500 }}
-                                className="card-body d-flex justify-content-center align-items-center flex-column"
-                            >
-                                <h1 style={{ color: "#d6d32f", fontSize: 50 }}>
-                                    <b>FREE</b>
-                                </h1>
-                                
-                                <p className="card-text text-center">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore...
-                                </p>
-
-                                
-
-                                <h1 className="card-title"><b>0.00 $</b></h1>
 
                                 <p className="text-center">
                                     All downloads include full tracks, loops,
