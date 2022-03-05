@@ -8,6 +8,21 @@ body {
     font-family: "Hind Siliguri", sans-serif !important;
 }
 
+.body{
+    background-color: rgb(29, 29, 29);
+    color: #fff !important;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: #141414dc;
+    box-shadow: 2px 6px 10px #131313;
+}
+
+.body-content{
+    padding: 100px 200px 200px 200px;
+}
+
 .button {
     border: none;
     outline: none;

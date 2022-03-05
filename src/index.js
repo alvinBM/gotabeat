@@ -11,6 +11,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import About from "./pages/About";
+import Licences from "./pages/Licences";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -19,6 +21,8 @@ ReactDOM.render(
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/licences" element={<Licences />} />
                 </Routes>
             </Router>
         </Provider>

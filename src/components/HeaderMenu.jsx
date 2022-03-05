@@ -1,6 +1,6 @@
 import React from "react";
 // import { useSelector } from "react-redux";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { IoSearchOutline } from "react-icons/io5";
 import "../assets/styles/header.css";
 
@@ -34,19 +34,19 @@ const HeaderMenu = ({ page }) => {
                 </div>
             </div>
             <div className="header-rigth">
-                <span className="item-menu itemMenuActive">Beat-Makers</span>
-                <span className="item-menu">Beat-Users</span>
-                <span className="item-menu">Pricing</span>
-                <span className="item-menu">Licenses</span>
-                <span className="item-menu">About Us</span>
-                <span className="item-menu">Contact</span>
-                <span className="brand-logo pl-3">
+                <Link to="/" className={`item-menu ${page === 'home' ? "itemMenuActive" : ""}`}>Beat-Makers</Link>
+                <Link to="/beat-user" className={`item-menu ${page === 'beat-user' ? "itemMenuActive" : ""}`}>Beat-Users</Link>
+                {/* <Link to="/pricing" className={`item-menu ${page === 'pricing' ? "itemMenuActive" : ""}`}>Pricing</Link> */}
+                <Link to="/licences" className={`item-menu ${page === 'licences' ? "itemMenuActive" : ""}`}>Licenses</Link>
+                <Link to="/about" className={`item-menu ${page === 'about' ? "itemMenuActive" : ""}`}>About Us</Link>
+                <Link to="/contact" className={`item-menu ${page === 'contact' ? "itemMenuActive" : ""}`}>Contact</Link>
+                <Link to="/search" className="brand-logo pl-3">
                     <IoSearchOutline
                         className="cursor-pointer secondary-color"
                         color={"#f1f1f1"}
                         size={26}
                     />
-                </span>
+                </Link>
             </div>
         </div>
     );

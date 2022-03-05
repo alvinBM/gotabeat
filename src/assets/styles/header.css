@@ -58,11 +58,12 @@
     color: OrangeRed;
     border-bottom: 2px solid OrangeRed;
     transition: all 0.3s;
+    text-decoration: none !important;
 }
-.header-rigth .item-menu:visited{
+/* .header-rigth .item-menu:visited{
     color: OrangeRed;
     border-bottom: 2px solid OrangeRed;
-}
+} */
 
 .header-rigth .itemMenuActive{
     color: OrangeRed;
