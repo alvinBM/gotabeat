@@ -13,6 +13,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import About from "./pages/About";
 import Licences from "./pages/Licences";
+import BeatUser from "./pages/BeatUser";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/licences" element={<Licences />} />
+                    <Route path="/beat-user" element={<BeatUser />} />
                 </Routes>
             </Router>
         </Provider>
