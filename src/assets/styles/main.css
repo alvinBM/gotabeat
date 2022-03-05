@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600&display=swap");
+/* @font-face {
+    font-family: 'Vrinda';
+    src: url('../fonts/Vrinda\ Regular.ttf')
+} */
+
+body {
+    font-family: "Hind Siliguri", sans-serif !important;
+}
+
+.button {
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.button-primary {
+    background-color: OrangeRed !important;
+    color: white !important;
+}
+
+.button-secondary {
+    background-color:  white;
+    color: OrangeRed;
+}
+
+.button-primary:hover {
+    background-color: #9c2a00;
+}
+
+.button-secondary:hover {
+    background-color: #faede9;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}

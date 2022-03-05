@@ -1,0 +1,70 @@
+
+
+/* Header Menu */
+.header{
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 0px 200px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.header-left{
+    display: flex;
+    flex: 3;
+}
+
+.header-middle{
+    display: flex;
+    flex: 1;
+}
+
+.header-middle .search-form{
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.header-middle .search-form:focus{
+    border: none;
+}
+
+.header-middle .search-form::placeholder{
+    color: rgb(185, 185, 185);
+}
+
+.header-rigth{
+    display: flex;
+    justify-content: end;
+    flex : 7;
+}
+
+.brand-logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header-rigth .item-menu{
+    color: rgb(240, 240, 240);
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-rigth .item-menu:hover{
+    color: OrangeRed;
+    border-bottom: 2px solid OrangeRed;
+    transition: all 0.3s;
+}
+.header-rigth .item-menu:visited{
+    color: OrangeRed;
+    border-bottom: 2px solid OrangeRed;
+}
+
+.header-rigth .itemMenuActive{
+    color: OrangeRed;
+    border-bottom: 2px solid OrangeRed;
+}
