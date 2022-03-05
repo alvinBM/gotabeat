@@ -13,63 +13,63 @@ const tracks = [
     {
         id: 0,
         title: "A Buck And Change Inst",
-        url: "http://pixelsolution.tech/audios/A Buck And Change Inst.mp3",
+        url: "https://adafevm.com/audios/A Buck And Change Inst.mp3",
         cover: require("../assets/images/instrumental/i5.jpg"),
         producer : "Alvin Bauma"
     },
     {
         id: 1,
         title: "Darwins Acid Instrumental MASTER",
-        url: "http://pixelsolution.tech/audios/Darwins Acid Instrumental MASTER.mp3",
+        url: "https://adafevm.com/audios/Darwins Acid Instrumental MASTER.mp3",
         cover: require("../assets/images/instrumental/i2.jpg"),
         producer : "Marc BTM"
     },
     {
         id: 2,
         title: "Dead Poets INST",
-        url: "http://pixelsolution.tech/audios/Dead Poets INST.mp3",
+        url: "https://adafevm.com/audios/Dead Poets INST.mp3",
         cover: require("../assets/images/instrumental/i1.jpg"),
         producer : "John Swagg"
     },
     {
         id: 3,
         title: "Fame In The Game Instr Master",
-        url: "http://pixelsolution.tech/audios/Fame In The Game Instr Master.mp3",
+        url: "https://adafevm.com/audios/Fame In The Game Instr Master.mp3",
         cover: require("../assets/images/instrumental/i8.jpg"),
         producer : "50 cent"
     },
     {
         id: 4,
         title: "GOCASE Instr Master",
-        url: "http://pixelsolution.tech/audios/GOCASE Instr Master.mp3",
+        url: "https://adafevm.com/audios/GOCASE Instr Master.mp3",
         cover: require("../assets/images/instrumental/i6.jpg"),
         producer : "Alvin bauma"
     },
     {
         id: 5,
         title: "Group Selection Instrumental MASTER",
-        url: "http://pixelsolution.tech/audios/Group Selection Instrumental MASTER.mp3",
+        url: "https://adafevm.com/audios/Group Selection Instrumental MASTER.mp3",
         cover: require("../assets/images/instrumental/i7.jpg"),
         producer : "50 cent"
     },
     {
         id: 6,
         title: "P F R Instrumental MASTER",
-        url: "http://pixelsolution.tech/audios/P F R Instrumental MASTER.mp3",
+        url: "https://adafevm.com/audios/P F R Instrumental MASTER.mp3",
         cover: require("../assets/images/instrumental/i3.jpg"),
         producer : "50 cent"
     },
     {
         id: 7,
         title: "Stirling Engine Instrumental Master 03_11_2021",
-        url: "http://pixelsolution.tech/audios/Stirling Engine Instrumental Master 03_11_2021.mp3",
+        url: "https://adafevm.com/audios/Stirling Engine Instrumental Master 03_11_2021.mp3",
         cover: require("../assets/images/instrumental/i4.jpg"),
         producer : "Alvin bauma"
     },
     {
         id: 8,
         title: "Twin Studies Instr Master",
-        url: "http://pixelsolution.tech/audios/Twin Studies Instr Master.mp3",
+        url: "https://adafevm.com/audios/Twin Studies Instr Master.mp3",
         cover: require("../assets/images/instrumental/i9.jpg"),
         producer : "50 cent"
     },
