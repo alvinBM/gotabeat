@@ -15,9 +15,9 @@ const CommingSoon = () => {
                     alt="profil"
                 />
 
-                <h1 className="">WE'RE COMMING SOON</h1>
+                <h1 className="">WE'RE COMING SOON</h1>
                 
-                <p>We're working hard to give you the best experience!</p>
+                <p>Easy beat licensing for all uses. Producers get paid, artists get heard.</p>
 
 
 
@@ -50,6 +50,16 @@ const CommingSoon = () => {
                         />
                         </a>
                     </span>
+                </div>
+
+                <div className="bottom">
+                    <p>Brought to you by Event Rap</p>
+                    <img
+                        className="img-fluid"
+                        src={require("../assets/images/eventrap.png")}
+                        width={120}
+                        alt="profil"
+                    />
                 </div>
             </div>
         </div>
