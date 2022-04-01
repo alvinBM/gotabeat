@@ -14,13 +14,15 @@ import store from "./redux/store";
 import About from "./pages/About";
 import Licences from "./pages/Licences";
 import BeatUser from "./pages/BeatUser";
+import CommingSoon from "./pages/CommingSoon";
 
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/" element={<CommingSoon />} />
+                    <Route exact path="/home" element={<Home />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/licences" element={<Licences />} />
