@@ -21,8 +21,8 @@ ReactDOM.render(
         <Provider store={store}>
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<CommingSoon />} />
-                    <Route exact path="/home" element={<Home />} />
+                    {/* <Route exact path="/" element={<CommingSoon />} /> */}
+                    <Route exact path="/" element={<Home />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/licences" element={<Licences />} />
