@@ -54,12 +54,14 @@ const CommingSoon = () => {
 
                 <div className="bottom">
                     <p>Brought to you by Event Rap</p>
-                    <img
-                        className="img-fluid"
-                        src={require("../assets/images/eventrap.png")}
-                        width={120}
-                        alt="profil"
-                    />
+                    <a href="https://eventrap.com" target="_blank">
+                        <img
+                            className="img-fluid"
+                            src={require("../assets/images/eventrap-logowhite.png")}
+                            width={120}
+                            alt="profil"
+                        />
+                    </a>
                 </div>
             </div>
         </div>
